@@ -1,5 +1,6 @@
-# Papi
-# jlemumz
+const generateRead = (name, github) => {
+    return `# ${name}
+# ${github}
     
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,3 +22,7 @@
 
 ## Questions
 
+`;
+  };
+  
+module.exports = generateRead;
