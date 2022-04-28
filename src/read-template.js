@@ -1,6 +1,6 @@
-const generateRead = (name, github) => {
-    return `# ${name}
-# ${github}
+const generateRead = (answers) => {
+    return `
+# ${answers.title}
     
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,18 +9,30 @@ const generateRead = (name, github) => {
 - [License](#license)
 - [Questions](#questions)
 
-
 ## Installation
+${answers.installation}
 
 ## Usage
+${answers.usage}
+
 
 ## Contributing
+${answers.contributing}
+
 
 ## Tests
 
+${answers.tests}
+
+
 ## License
+${answers.license}
+
 
 ## Questions
+${answers.name}
+${answers.email}
+
 
 `;
   };
