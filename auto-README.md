@@ -1,5 +1,5 @@
 
-# Test [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Demonstration [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
     
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,25 +8,24 @@
 - [License](#license)
 - [Questions](#questions)
 
-## Installation 💻
-lfg
+## Installation
+Please install all dependencies
 
 ## Usage
-hfjl
+All uses
 
 ## Contributing
-fvghjl
+Please reach me at my github account for more details.
 
-## Tests 🧪🧪
-
-gf
+## Tests
+Use jest to test
 
 ## License 
 This application is licensed under mit
 
-## Questions 🤔❓
-Please reach me through github: https://github.com/jfgc
+## Questions
+Please reach me through github: https://github.com/jlemuz
 
 
-Or contact me by email at: cfghk
+Or contact me by email at: lemuz_jose@yahoo.com
 

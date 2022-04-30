@@ -24,7 +24,7 @@ const generateRead = (answers) => {
 - [License](#license)
 - [Questions](#questions)
 
-## Installation 💻
+## Installation
 ${answers.installation}
 
 ## Usage
@@ -33,14 +33,13 @@ ${answers.usage}
 ## Contributing
 ${answers.contributing}
 
-## Tests 🧪🧪
-
+## Tests
 ${answers.tests}
 
 ## License 
 This application is licensed under ${answers.license}
 
-## Questions 🤔❓
+## Questions
 Please reach me through github: https://github.com/${answers.name}
 
 

@@ -44,14 +44,14 @@ const promptUser = () => {
   {
       type: 'list',
       name: 'license',
-      message: 'What licenses did you use for this project? (Check all that apply)',
+      message: 'What licenses did you use for this project?',
       choices: ['apache-2.0', 'mit', 'isc', 'gpl', 'cc-by-4.0']
     },
 
     {
       type: 'input',
       name: 'name',
-      message: 'What is tyour GitHub username?'
+      message: 'What is your GitHub username?'
     },
 
     {
