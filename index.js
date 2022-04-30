@@ -3,6 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateRead = require('./src/read-template.js');
 
+//Promts users a list of questions
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -41,10 +42,10 @@ const promptUser = () => {
   },
 
   {
-      type: 'checkbox',
+      type: 'list',
       name: 'license',
       message: 'What licenses did you use for this project? (Check all that apply)',
-      choices: ['apache-2.0', 'mit', 'lppl-1.3c', 'gpl', 'cc-by-4.0', 'artistic-2.0']
+      choices: ['apache-2.0', 'mit', 'isc', 'gpl', 'cc-by-4.0']
     },
 
     {
@@ -62,20 +63,15 @@ const promptUser = () => {
 };
 
 
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-
-
 
 // TODO: Create a function to initialize app
 function init() {
   promptUser()
-  //.then(answers => console.log(answers))
   .then(answers => {
-    const READ = generateRead(answers);
-    fs.writeFile('READ-inq.md', READ, err => {
+    const README = generateRead(answers);
+    fs.writeFile('auto-README.md', README, err => {
         if (err) throw new Error(err);
-        console.log('Page created! Check out index.html in this directory to see it!');
+        console.log('Page created! Check out auto-README.md in this directory to see it!');
       });
 });
 
